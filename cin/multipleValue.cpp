@@ -12,8 +12,4 @@ int main (){
     return 0;
 }
 
-// Note1: endl is an output stream and will not work with cin (character input)
-/*Note2:  << concatenate :
-            the string i.e. text written in ""  
-            integer i.e. num1 and num2
-            */ 
+//  Note 1: endl is an output stream and will not work with cin (character input).
