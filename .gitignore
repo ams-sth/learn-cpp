@@ -1,0 +1,40 @@
+# Object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug/Release directories
+/build/
+bin/
+Debug/
+Release/
+
+# Compiler output
+*.dSYM/      # macOS debugger output
+
+# Dependency directories (if using a package manager)
+/lib/
+node_modules/
+
+# IDE and editor-specific files
+.vscode/       # VS Code settings
+.idea/         # IntelliJ/CLion project files
+*.suo          # Visual Studio user options
+*.user         # Visual Studio user-specific files
+*.swp          # Vim temporary files
+*.DS_Store     # macOS Finder metadata
+*.iml          # IntelliJ IDEA project files
+
+# CMake build files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# System-specific files
+Thumbs.db       # Windows image preview cache
+Desktop.ini     # Windows file system configuration

@@ -1,11 +1,11 @@
 **Lesson 1: Introduction to C++ Basics**
 
-- **Chapter 1.1: Setting Up Your Environment**
+- **Chapter 1.1: Setting Up Your Environment** - Done
 
   - Installing a C++ IDE (e.g., Visual Studio, Code::Blocks, CLion) or text editor (e.g., VSCode) and compiler (e.g., GCC, MinGW).
   - Writing and running your first "Hello World!" program.
 
-- **Chapter 1.2: Basic Syntax and Structure**
+- **Chapter 1.2: Basic Syntax and Structure** - Done
 
   - C++ syntax (functions, braces, semicolons).
   - The `main()` function.
