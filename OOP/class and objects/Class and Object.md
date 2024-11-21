@@ -30,7 +30,7 @@
 
 **How it's written in cpp:**
 
-<!-- Class -->
+**Class**
     class House {
     public:
         // Attributes
@@ -45,7 +45,7 @@
         }
     };
 
-<!-- Object -->
+**Object**
     int main() {
         // Create an object of the House class
         House myHouse;
