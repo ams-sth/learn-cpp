@@ -37,17 +37,16 @@ int main()
     BankAccount bankAccountOne("Jane", 7000);
     BankAccount bankAccountTwo("John", 9000);
 
-    cout << bankAccountOne.name << " has  " << bankAccountOne.total << " amount in total " << endl;
-    cout << bankAccountOne.name << " deposited  " << bankAccountOne.deposit(3000) << " total " << endl;
-    cout << bankAccountOne.name << " now has  " << bankAccountOne.total << " amount in total " << endl;
-    cout << bankAccountOne.name << " withdrew " << bankAccountOne.withdraw(5000) << " amount " << endl;
-    cout << bankAccountOne.name << " has " << bankAccountOne.total << " left " << endl;
+    cout << " Name : " << bankAccountOne.name << endl;
+    cout << " Current Total : " << "Rs " << bankAccountOne.total << endl;
+    cout << "Deposited amount : " << "Rs " << bankAccountOne.deposit(4000) << endl;
+    cout << "New Total : " << "Rs" << bankAccountOne.total << endl;
+        
 
-    cout << bankAccountTwo.name << " has  " << bankAccountTwo.total << " amount in total " << endl;
-    cout << bankAccountTwo.name << " deposited " << bankAccountTwo.deposit(8000) << " total " << endl;
-    cout << bankAccountTwo.name << " now has  " << bankAccountTwo.total << " amount in total " << endl;
-    cout << bankAccountTwo.name << " withdrew " << bankAccountTwo.withdraw(9000) << " amount " << endl;
-    cout << bankAccountTwo.name << " has " << bankAccountTwo.total << " left " << endl;
+    cout << " Name : " << bankAccountTwo.name << endl;
+    cout << " Current Total : " << "Rs " << bankAccountTwo.total << endl;
+    cout << "Deposited amount : " << "Rs " << bankAccountTwo.withdraw(4000) << endl;
+    cout << "New Total : " << "Rs" << bankAccountTwo.total << endl;
 
     return 0;
 };
