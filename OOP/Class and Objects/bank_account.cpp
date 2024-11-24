@@ -41,11 +41,10 @@ int main()
     cout << " Current Total : " << "Rs " << bankAccountOne.total << endl;
     cout << "Deposited amount : " << "Rs " << bankAccountOne.deposit(4000) << endl;
     cout << "New Total : " << "Rs" << bankAccountOne.total << endl;
-        
 
     cout << " Name : " << bankAccountTwo.name << endl;
     cout << " Current Total : " << "Rs " << bankAccountTwo.total << endl;
-    cout << "Deposited amount : " << "Rs " << bankAccountTwo.withdraw(4000) << endl;
+    cout << "Deposited amount : " << "Rs " << bankAccountTwo.withdraw(9000) << endl;
     cout << "New Total : " << "Rs" << bankAccountTwo.total << endl;
 
     return 0;

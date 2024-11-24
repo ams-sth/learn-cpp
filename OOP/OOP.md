@@ -34,7 +34,10 @@
 
     }
 
-#### 2. **Encapsulation**
+### Pillars of OOP:
+
+
+#### 1. **Encapsulation**
 
 - Bundling of data and methods operating on that data within a class.
 - Use **access specifiers** (`private`, `protected`, `public`) to control access.
@@ -58,7 +61,7 @@
 
     };
 
-#### 3. **Inheritance**
+#### 2. **Inheritance**
 
 - Allows a class (derived) to inherit properties and methods from another class (base).
 
@@ -85,7 +88,7 @@
     return 0;
     }
 
-#### 4. **Polymorphism**
+#### 3. **Polymorphism**
 
 - Ability to redefine or override methods in derived classes.
 - Achieved through **method overriding** or **overloading**.
@@ -115,7 +118,7 @@
 
 }
 
-#### 5. **Abstraction**
+#### 4. **Abstraction**
 
 - Hiding implementation details and showing only essential features.
 - Achieved using **abstract classes** or **interfaces** (pure virtual functions).
