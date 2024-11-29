@@ -4,7 +4,7 @@
 
 ### Key Concepts of OOP:
 
-#### 1. **Classes and Objects**
+####  **Classes and Objects**
 
 - **Class**: A blueprint (template/schema/Specification) for creating objects. It defines the data and methods.
 - **Object**: An instance of a class.
@@ -39,7 +39,7 @@
 
 #### 1. **Encapsulation**
 
-- Bundling of data and methods operating on that data within a class.
+- Bundling(Hiding) of data and methods operating on that data within a class.
 - Use **access specifiers** (`private`, `protected`, `public`) to control access.
 
 **Example:**
