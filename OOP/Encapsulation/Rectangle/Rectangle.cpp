@@ -1,73 +1,72 @@
-
 #include <iostream>
 
-class Rectange
+using namespace std;
+
+class Rectangle
 {
 private:
     double length;
-    double width;
+    double breadth;
 
 public:
     void setLength(double len)
     {
-        if (length < 0)
+        if (len > 0)
         {
-            std::cout << "Length cannot be negative" << std::endl;
+
+            length = len;
         }
         else
         {
-            length = len;
+            cout << "Length cannot be 0 !";
         }
-    }
+    };
 
     double getLength()
     {
         return length;
     }
 
-    void setWidth(double w)
+    void setBreadth(double bre)
     {
+        if (bre > 0)
         {
-            if (width < 0)
-            {
-                std::cout << "Width cannot be negative" << std::endl;
-            }
-            else
-            {
-                width = w;
-            }
-        }
-    }
 
-    double getWidth()
+            breadth = bre;
+        }
+        else
+        {
+            cout << "Breadth cannot be 0 !";
+        }
+    };
+
+    double getBreadth()
     {
-        return width;
+        return breadth;
     }
 
     double Area()
     {
-
-        return length * width;
+        return length * breadth;
     }
 
     double Perimeter()
     {
-        return (length + width) * 2;
+        return 2 * (length + breadth);
     }
 };
 
 int main()
 {
-    Rectange rect;
+    Rectangle rect;
+    rect.setLength(23);
+    rect.setBreadth(23);
 
-    rect.setLength(10);
-    rect.setWidth(12);
+    cout << "Length : " << rect.getLength() << endl;
+    cout << "Breadth : " << rect.getBreadth() << endl;
 
-    std::cout << "Length of rectangle : " << rect.getLength() << std::endl;
-    std::cout << "Width of rectangle : " << rect.getWidth() << std::endl;
-
-    std::cout << "Area of rectange : " << rect.Area() << std::endl;
-    std::cout << "Perimeter of rectangle : " << rect.Perimeter() << std::endl;
+    cout << "Area : " << rect.Area() << endl;
+    cout << "Perimeter : " << rect.Perimeter() << endl;
 
     return 0;
-}
+};

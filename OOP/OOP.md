@@ -39,7 +39,7 @@
 
 #### 1. **Encapsulation**
 
-- Bundling(Hiding) of data and methods operating on that data within a class.
+- Bundling of data and methods operating on that data within a class.
 - Use **access specifiers** (`private`, `protected`, `public`) to control access.
 
 **Example:**

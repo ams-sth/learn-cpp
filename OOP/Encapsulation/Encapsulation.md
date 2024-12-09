@@ -1,24 +1,24 @@
 Encapsulation is bundling data (variables) and methods (functions) that operate on the data into a single unit called a **class** and controlling access to that data to maintain integrity.This is done using **access specifiers** like `private`, `protected`, and `public`.
 
-### **Key Features of Encapsulation**
+### Key Features of Encapsulation
 
 1. **Data Hiding**: Restricts direct access to some of an object's components.
 2. **Abstraction**: Simplifies the interface by exposing only the necessary parts.
 3. **Control**: Allows controlled interaction with the data through methods.
 
-### **Access Specifiers**
+### Access Specifiers
 
 - `private`: Members are accessible only within the class.
 - `protected`: Members are accessible within the class and by derived classes.
 - `public`: Members are accessible from anywhere the object is visible.
 
-### **Steps to Implement Encapsulation in C++**
+### Steps to Implement Encapsulation in C++
 
 1. Declare a class.
 2. Make the class attributes `private` to restrict access.
 3. Provide **getter** and **setter** methods (`public`) to access and update these attributes.
 
-### **Example: Student Class:**
+ **Example: Student Class:**
 
     #include <iostream>
     #include <string>
@@ -71,7 +71,7 @@ Encapsulation is bundling data (variables) and methods (functions) that operate 
 
     }
 
-### **Explanation of the Code**
+**Explanation of the Code**
 
 1. **Private Attributes**:
    - `name` and `age` are private, ensuring that they cannot be modified directly from outside the class.
