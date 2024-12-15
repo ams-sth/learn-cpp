@@ -1,4 +1,5 @@
 What is C++ ?
+
 C++ is a multi-paradigm programming language that supports both object-oriented and procedural programming styles. It is also considered a low-level programming language, providing users with the ability to interact directly with hardware resources. Due to it's low-level nature, C++ does not come with garbage collector. Consequently, developers are responsible for manually managing memory allocation and deallocation. While this requires careful coding, it also offers the advantage of optimizing performance and memory usage.
 
 Well-optimized C++ applications consume minimal storage and are highly memory-efficient, making them ideal for system-level programming, embedded systems, and performance-critical applications.
