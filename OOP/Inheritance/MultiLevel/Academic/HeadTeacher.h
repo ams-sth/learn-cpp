@@ -25,4 +25,8 @@ public:
         cout << "Hi, I'm " << getName() << " and I am " << getAge() << " years old." 
         << " I am " << title << " of " << department << ". \n";
     }
+
+    void teach() override {
+        cout << "My profession is teaching " << getSubject() << endl;
+    }
 };

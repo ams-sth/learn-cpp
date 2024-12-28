@@ -15,7 +15,7 @@ public:
         return subject;
     }
 
-    void teach(){
+    virtual void teach(){
         cout << "I teach " << getSubject() << endl;
     }
 };
